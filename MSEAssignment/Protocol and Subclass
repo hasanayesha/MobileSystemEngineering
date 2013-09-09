@@ -1,0 +1,12 @@
+Protocol:
+* It is a group of related properties and methods that can be implemented by any class.
+* They let us reuse a single API decleration in unrelated classes.
+* They can be used for type-checking.
+* We can inherit protocols from other protocols.
+
+Subclass:
+* A subclass inherits methods and instance variables from its superclasses.
+* It can override methods and instance variables from its superclass.
+* It needs a interface and implementation file.
+
+
