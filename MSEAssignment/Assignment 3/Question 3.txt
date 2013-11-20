@@ -1,0 +1,6 @@
+*Context aware applications are applications that can sense and react based on the environment they are in. 
+*Siri, the personal assitant and knowledge navigator is an application taht is used in Apple Inc.'s iOS. 
+*Siri uses the location plus web services to provide the user to make reservations at specific restaurants, buy movie tickets or get a cab by dictating instructions in natural language. 
+*Siri makes use of the user's location and web services to answer the user's query. 
+*The users data is also saved to provide with a more personalized experience with more interactions.
+*It interacts with various applications on iOS devices such as, Reminders, alarm, navigator, clock, camera etc.

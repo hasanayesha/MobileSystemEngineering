@@ -1,0 +1,39 @@
+Opcode Name: nop
+Explanation: No operation
+Opcode(hex): 00
+Example
+0000- nop
+
+Opcode Name: const/high16 v0, lit16
+Explanation: Puts the 16 bit constant into the topmost bits of the register. Used to initialize float values.
+Opcode (hex): 15
+Example
+1500 2041 - const/high16 v0, #float 10.0 // #41200000
+Moves the floating literal of 10.0 into v0. The 16 bit literal in the instruction carries the top 16 bits of the floating point number.
+
+Opcode Name: return-void
+Explanation: Return without a return value
+Opcode (hex): 0E
+Example
+0E00 - return-void
+
+Opcode Name: move-object vx,vy
+Explanation: Moves the object reference from vy to vx.
+Opcode (hex): 07
+Example
+0781 - move-object v1, v8
+Moves the object reference in v8 to v1.
+
+Opcode Name: monitor-enter vx
+Explanation: Obtains the monitor of the object referenced by vx.
+Opcode (hex): 1D
+Example
+1D03 - monitor-enter v3
+Obtains the monitor of the object referenced by v3.
+
+Opcode Name: array-length vx,vy
+Explanation: Calculates the number of elements of the array referenced by vy and puts the length value into vx.
+Opcode (hex): 21
+Example
+2111 - array-length v1, v1
+Calculates the number of elements of the array referenced by v1 and puts the result into v1.

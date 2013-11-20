@@ -1,0 +1,4 @@
+Mobile Computing: the physical device is mobile. Data is accessed and operations are performed on the go. The devices have low bandwidth, limited transmission power, limited battery and limited processing power.
+
+
+Cloud Computing: you are allowed to store personal data in a cloud area on the internet, allowing access from different devices. But, physical device with internet access is needed to access it. The files always have to be synchronized to the cloud when they are accessed by other devices. Cloud offers services like infrastructure as a service, 
